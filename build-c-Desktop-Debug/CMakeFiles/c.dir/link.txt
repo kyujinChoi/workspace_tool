@@ -1,0 +1,1 @@
+/usr/bin/g++  -g   CMakeFiles/c.dir/c_autogen/mocs_compilation.cpp.o CMakeFiles/c.dir/main.cpp.o CMakeFiles/c.dir/mainwindow.cpp.o  -o c  /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.12.8 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.12.8 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.12.8 

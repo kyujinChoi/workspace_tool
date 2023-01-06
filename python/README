@@ -1,0 +1,11 @@
+https://dhznsdl.tistory.com/21
+
+pip install selenium
+
+# chrome version check
+chrome://version
+
+# chrome driver download
+###########################################
+https://chromedriver.chromium.org/downloads
+###########################################
