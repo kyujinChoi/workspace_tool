@@ -21,8 +21,8 @@ import os
 inFile = open("../info_backup.cfg", 'r', encoding='utf-8')
 inFos = inFile.readlines()
 
-print("0 : " + inFos[0])
-print("1 : " + inFos[1])
+# print("0 : " + inFos[0])
+# print("1 : " + inFos[1])
 # confirmBtn.click()
 
 
@@ -55,7 +55,7 @@ except NoSuchElementException:
     time.sleep(3)
     driver.close()
 
-time.sleep(2)
+time.sleep(1)
 driver.close()
 
 # 출근 버튼 누를때

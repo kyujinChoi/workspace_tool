@@ -58,8 +58,8 @@ try:
         times = cont.find_elements(By.CLASS_NAME, 'td-text.text-center')
         inFos.append(times[1].text[0:5] + '\n')
         inFos.append(times[2].text[0:5] + '\n')
-        if(times[2].text == ""):
-            print("is NULL")
+        # if(times[2].text == ""):
+        #     print("is NULL")
     
     for str in encryption(inFos):
         outFile.writelines(str)
@@ -76,7 +76,7 @@ except NoSuchElementException:
     inFile.close()
     driver.close()
 
-time.sleep(2)
+time.sleep(1)
 inFile.close()
 driver.close()
 

@@ -137,8 +137,11 @@
            <italic>true</italic>
           </font>
          </property>
+         <property name="autoFillBackground">
+          <bool>false</bool>
+         </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(211, 215, 207);</string>
+          <string notr="true"/>
          </property>
          <property name="text">
           <string/>
@@ -175,7 +178,7 @@
           </font>
          </property>
          <property name="styleSheet">
-          <string notr="true">background-color: rgb(211, 215, 207);</string>
+          <string notr="true"/>
          </property>
          <property name="text">
           <string/>
@@ -203,7 +206,7 @@
      <item>
       <layout class="QHBoxLayout" name="tueLayout">
        <item>
-        <widget class="QLabel" name="label_7">
+        <widget class="QLabel" name="tueLabel">
          <property name="minimumSize">
           <size>
            <width>40</width>
@@ -236,7 +239,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QLabel" name="label_8">
+        <widget class="QLabel" name="tueInLabel">
          <property name="minimumSize">
           <size>
            <width>100</width>
@@ -273,7 +276,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QLabel" name="label_9">
+        <widget class="QLabel" name="tueOutLabel">
          <property name="minimumSize">
           <size>
            <width>100</width>
@@ -314,7 +317,7 @@
      <item>
       <layout class="QHBoxLayout" name="wedLayout">
        <item>
-        <widget class="QLabel" name="label_10">
+        <widget class="QLabel" name="wedLabel">
          <property name="minimumSize">
           <size>
            <width>40</width>
@@ -347,7 +350,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QLabel" name="label_11">
+        <widget class="QLabel" name="wedInLabel">
          <property name="minimumSize">
           <size>
            <width>100</width>
@@ -384,7 +387,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QLabel" name="label_12">
+        <widget class="QLabel" name="wedOutLabel">
          <property name="minimumSize">
           <size>
            <width>100</width>
@@ -425,7 +428,7 @@
      <item>
       <layout class="QHBoxLayout" name="thuLayout">
        <item>
-        <widget class="QLabel" name="label_4">
+        <widget class="QLabel" name="thuLabel">
          <property name="minimumSize">
           <size>
            <width>40</width>
@@ -458,7 +461,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QLabel" name="label_5">
+        <widget class="QLabel" name="thuInLabel">
          <property name="minimumSize">
           <size>
            <width>100</width>
@@ -495,7 +498,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QLabel" name="label_6">
+        <widget class="QLabel" name="thuOutLabel">
          <property name="minimumSize">
           <size>
            <width>100</width>
@@ -536,7 +539,7 @@
      <item>
       <layout class="QHBoxLayout" name="friLayout">
        <item>
-        <widget class="QLabel" name="label_13">
+        <widget class="QLabel" name="friLabel">
          <property name="minimumSize">
           <size>
            <width>40</width>
@@ -569,7 +572,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QLabel" name="label_14">
+        <widget class="QLabel" name="friInLabel">
          <property name="minimumSize">
           <size>
            <width>100</width>
@@ -606,7 +609,7 @@
         </spacer>
        </item>
        <item>
-        <widget class="QLabel" name="label_15">
+        <widget class="QLabel" name="friOutLabel">
          <property name="minimumSize">
           <size>
            <width>100</width>
