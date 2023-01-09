@@ -18,7 +18,7 @@ import os
 
 # print("File path : " + file_path)
 
-inFile = open("./info.cfg", 'r', encoding='utf-8')
+inFile = open("../info_backup.cfg", 'r', encoding='utf-8')
 inFos = inFile.readlines()
 
 print("0 : " + inFos[0])
@@ -35,7 +35,7 @@ driver.find_element(By.ID, 'loginBtn').click()
 
 # iframes = driver.find_elements_by_css_selector('iframe')
 time.sleep(3)
-exit()
+# exit()
 try:
     targetBtn = driver.find_element(By.CLASS_NAME, 'btn.btn-md.black')
     if(not targetBtn.get_attribute("disabled")) :
@@ -44,7 +44,7 @@ try:
         time.sleep(1)
         confirmBtn = driver.find_element(By.CLASS_NAME, 'btn.btn-md.black.btn_pop_confirm')
         print(confirmBtn.get_attribute("outerHTML"))
-        
+        # confirmBtn.click()
     
 ################################
     # clockInBtn = driver.find_element(By.CLASS_NAME, 'btn.btn-md.line-1.btn-on')

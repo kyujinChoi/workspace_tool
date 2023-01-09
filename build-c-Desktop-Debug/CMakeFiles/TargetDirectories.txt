@@ -1,4 +1,0 @@
-/home/ckj/my_github/workspace_tool/build-c-Desktop-Debug/CMakeFiles/rebuild_cache.dir
-/home/ckj/my_github/workspace_tool/build-c-Desktop-Debug/CMakeFiles/edit_cache.dir
-/home/ckj/my_github/workspace_tool/build-c-Desktop-Debug/CMakeFiles/c.dir
-/home/ckj/my_github/workspace_tool/build-c-Desktop-Debug/CMakeFiles/c_autogen.dir

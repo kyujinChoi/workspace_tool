@@ -22,7 +22,7 @@
      <rect>
       <x>10</x>
       <y>10</y>
-      <width>201</width>
+      <width>275</width>
       <height>41</height>
      </rect>
     </property>
@@ -51,6 +51,26 @@
       <widget class="QPushButton" name="clockOutButton">
        <property name="text">
         <string>ClockOut</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <spacer name="horizontalSpacer_12">
+       <property name="orientation">
+        <enum>Qt::Horizontal</enum>
+       </property>
+       <property name="sizeHint" stdset="0">
+        <size>
+         <width>40</width>
+         <height>20</height>
+        </size>
+       </property>
+      </spacer>
+     </item>
+     <item>
+      <widget class="QPushButton" name="reFreshButton">
+       <property name="text">
+        <string>Refresh</string>
        </property>
       </widget>
      </item>

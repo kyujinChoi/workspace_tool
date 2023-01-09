@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/ckj/my_github/workspace_tool/c/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ckj/my_github/workspace_tool/c/build -I/home/ckj/my_github/workspace_tool/c -I/home/ckj/my_github/workspace_tool/c/build/workPlaceTool_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG   -fPIC -std=gnu++11 -o CMakeFiles/workPlaceTool.dir/workPlaceTool_autogen/mocs_compilation.cpp.o -c /home/ckj/my_github/workspace_tool/c/build/workPlaceTool_autogen/mocs_compilation.cpp",
+  "file": "/home/ckj/my_github/workspace_tool/c/build/workPlaceTool_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/ckj/my_github/workspace_tool/c/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ckj/my_github/workspace_tool/c/build -I/home/ckj/my_github/workspace_tool/c -I/home/ckj/my_github/workspace_tool/c/build/workPlaceTool_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG   -fPIC -std=gnu++11 -o CMakeFiles/workPlaceTool.dir/core.cpp.o -c /home/ckj/my_github/workspace_tool/c/core.cpp",
+  "file": "/home/ckj/my_github/workspace_tool/c/core.cpp"
+},
+{
+  "directory": "/home/ckj/my_github/workspace_tool/c/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ckj/my_github/workspace_tool/c/build -I/home/ckj/my_github/workspace_tool/c -I/home/ckj/my_github/workspace_tool/c/build/workPlaceTool_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG   -fPIC -std=gnu++11 -o CMakeFiles/workPlaceTool.dir/main.cpp.o -c /home/ckj/my_github/workspace_tool/c/main.cpp",
+  "file": "/home/ckj/my_github/workspace_tool/c/main.cpp"
+},
+{
+  "directory": "/home/ckj/my_github/workspace_tool/c/build",
+  "command": "/usr/bin/g++  -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NO_DEBUG -DQT_WIDGETS_LIB -I/home/ckj/my_github/workspace_tool/c/build -I/home/ckj/my_github/workspace_tool/c -I/home/ckj/my_github/workspace_tool/c/build/workPlaceTool_autogen/include -isystem /usr/include/x86_64-linux-gnu/qt5 -isystem /usr/include/x86_64-linux-gnu/qt5/QtWidgets -isystem /usr/include/x86_64-linux-gnu/qt5/QtGui -isystem /usr/include/x86_64-linux-gnu/qt5/QtCore -isystem /usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++  -O3 -DNDEBUG   -fPIC -std=gnu++11 -o CMakeFiles/workPlaceTool.dir/mainwindow.cpp.o -c /home/ckj/my_github/workspace_tool/c/mainwindow.cpp",
+  "file": "/home/ckj/my_github/workspace_tool/c/mainwindow.cpp"
+}
+]

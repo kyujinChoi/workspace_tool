@@ -1,7 +1,9 @@
 https://dhznsdl.tistory.com/21
 
 pip install selenium
-
+sudo apt-get install locales
+sudo locale-gen ko_KR.UTF-8
+sudo update-locale LANG=ko_KR.UTF-8
 # chrome version check
 chrome://version
 

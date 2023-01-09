@@ -16,6 +16,8 @@ public:
     ~MainWindow();
 private slots:
     void On_Clicked_Quit();
+    void on_reFreshButton_clicked();
+
 private:
     Ui::MainWindow *ui;
 };

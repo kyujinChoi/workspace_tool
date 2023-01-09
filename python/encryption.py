@@ -11,8 +11,8 @@ import os
 # print("File path : " + file_path)
 # info_encryp info
 
-inFile = open("../info_encryp.cfg", 'r', encoding='utf-8')
-outFile = open("../info.cfg", 'w', encoding='utf-8')
+inFile = open("../info.cfg", 'r', encoding='utf-8')
+outFile = open("../info_encryp.cfg", 'w', encoding='utf-8')
 # inFos = inFile.readlines()
 
 # print("0 : " + inFos[0])
@@ -23,9 +23,9 @@ outFile = open("../info.cfg", 'w', encoding='utf-8')
 secuYN = input("1. 암호화 2.복호화: ")
 secu = 0
 if secuYN == '1':
-    secu = 100
+    secu = 50
 elif secuYN == '2':
-    secu = -100
+    secu = -50
 else:
     secu = 0
     print("잘못 입력되었습니다.")

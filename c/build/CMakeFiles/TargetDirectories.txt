@@ -1,0 +1,4 @@
+/home/ckj/my_github/workspace_tool/c/build/CMakeFiles/rebuild_cache.dir
+/home/ckj/my_github/workspace_tool/c/build/CMakeFiles/edit_cache.dir
+/home/ckj/my_github/workspace_tool/c/build/CMakeFiles/workPlaceTool.dir
+/home/ckj/my_github/workspace_tool/c/build/CMakeFiles/workPlaceTool_autogen.dir

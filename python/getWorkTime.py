@@ -9,21 +9,35 @@ import time
 import os
 # import sys
 
+def encryption(list):
+    result=[]
+    for str in list:
+        out_str = ""
+        for s in str:
+            tmp = ord(s) + 50
+            out_str += chr(tmp)
+        result.append(out_str)
+    return result
 
-# file_path = sys.argv[1]
-
-# if len(sys.argv) != 2:
-#     print("Insufficient arguments")
-#     sys.exit()
-
-# print("File path : " + file_path)
+def decryption(list):
+    result=[]
+    for str in list:
+        out_str = ""
+        for s in str:
+            tmp = ord(s) - 50
+            out_str += chr(tmp)
+            if(chr(tmp) == '\n'):
+                result.append(out_str)
+                out_str = ""
+            
+    return result
 
 inFile = open("../info.cfg", 'r', encoding='utf-8')
-inFos = inFile.readlines()
 
-print("0 : " + inFos[0])
-print("1 : " + inFos[1])
-# confirmBtn.click()
+inFos=decryption(inFile.readlines())
+# print(inFos[1])
+del inFos[2:]
+outFile = open("../info.cfg", 'w', encoding='utf-8')
 
 
 driver = webdriver.Chrome('./chromedriver')
@@ -33,22 +47,24 @@ driver.find_element(By.ID, 'user').send_keys(inFos[0])
 driver.find_element(By.ID, 'password').send_keys(inFos[1])
 driver.find_element(By.ID, 'loginBtn').click()
 
-# iframes = driver.find_elements_by_css_selector('iframe')
 time.sleep(3)
 
+# for str in inFos:
+#     print(str)
 try:
     bodyConts = driver.find_element(By.ID, 'bodyConts')
     contsTable = bodyConts.find_elements(By.TAG_NAME, 'tr')
-    # print(contsTable.get_attribute("outerHTML"))
     for cont in contsTable:
         times = cont.find_elements(By.CLASS_NAME, 'td-text.text-center')
-        # for time in cont.find_elements(By.CLASS_NAME, 'td-text.text-center'):
-        print(times[1].text[0:5])
-        print(times[2].text[0:5])
+        inFos.append(times[1].text[0:5] + '\n')
+        inFos.append(times[2].text[0:5] + '\n')
         if(times[2].text == ""):
             print("is NULL")
-        print("")
-        
+    
+    for str in encryption(inFos):
+        outFile.writelines(str)
+    # for str in inFos:
+    #     outFile.writelines(str)
     
 ################################
     # clockInBtn = driver.find_element(By.CLASS_NAME, 'btn.btn-md.line-1.btn-on')
@@ -57,8 +73,10 @@ try:
 except NoSuchElementException:
     print("yes NoSuchElementException")
     time.sleep(3)
+    inFile.close()
     driver.close()
 
 time.sleep(2)
+inFile.close()
 driver.close()
 
